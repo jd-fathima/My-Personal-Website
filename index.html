@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fathima Jamal-Deen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a56f9a5af.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container"> 
+            <nav> 
+                <img src="images/F.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Why</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+             </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+    
+            </nav>
+            <div class="header-text">
+                <p>Aspiring Web Designer</p>
+                <h1>Hi, I'm <span>Fathima</span><br>Jamal-Deen From UK</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------About---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I'm a highly motivated computer science graduate with 
+                        a strong passion for web design and data analysis. With 
+                        a solid foundation in computer science principles and a 
+                        creative flair for web development, I'm dedicated to 
+                        crafting user-friendly websites that leave a lasting 
+                        impression.<br><br>
+                        <b>Web Design Enthusiast:</b>
+                        I'm driven by the art of web design, from concept to code. I enjoy creating 
+                        responsive, visually appealing, and intuitive websites that 
+                        engage users and deliver exceptional experiences. My skills 
+                        include HTML, CSS, JavaScript, and familiarity with various 
+                        design tools.<br><br>
+                        <b>Data Admirer:</b> 
+                        Data is my other love. I'm adept at collecting, cleaning, and 
+                        analyzing data to uncover actionable insights. Whether it's 
+                        optimizing business processes or making informed decisions, 
+                        I leverage data-driven approaches to solve complex problems.<br><br>
+                        <b>Open to New Opportunities:</b> I'm actively seeking 
+                        opportunities to apply my skills and passion. Whether it's 
+                        web design projects, data analysis challenges, or any exciting 
+                        venture that aligns with my interests, I'm ready to contribute 
+                        and grow.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building, designing, maintaing and improving websites to make them functional and visually appealing</li>
+                            <li><span>Data Analysing</span><br>Ability to examine and make sense of data to uncover valuable insights and inform decision-making</li>
+                            <li><span>Microsoft Office</span><br>Proficiency in Word, Excel and PowerPoint</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Present</span><br>Exam Invigilating at Secondary Schools</li>
+                            <li><span>2018 - 2020 </span><br>Assistant Manager at APEX</li>
+                            <li><span>Feb 2018</span><br>Intern at Runway East</li>
+                            <li><span>April 2016</span><br>Intern at Moorfields Eye Hospital</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BSc Computer Science from King's College London</li>
+                            <li><span>2019</span><br>A Level's from Brampton Manor Academy</li>
+                            <li><span>2017</span><br>GCSE's from Brampton Manor Academy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------Services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Why Web Design</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2>1<span>&#41;</span> Creative Outlet</h2>
+                    <p>
+                        Web design allows me to express my 
+                        creativity by crafting visually appealing 
+                        and unique digital experiences.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-book"></i>
+                    <h2>2<span>&#41;</span> Continuous Learning</h2>
+                    <p>
+                        I'm drawn to the ever-evolving nature of 
+                        web design, where I can stay up-to-date with 
+                        the latest design trends and technologies.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>  
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>3<span>&#41;</span> User Centric Impact</h2>
+                    <p>
+                        I find fulfillment in knowing that my work 
+                        directly influences how users interact with 
+                        online content, making web design a meaningful 
+                        pursuit for me.
+                    </p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <!------Portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                
+                <div class="work">
+                    <img src="images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Chess Club Manager</h3>
+                        <p>This was a group project where we made a 
+                            chess club manager website out of Django.
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Book Club Manager</h3>
+                        <p>This was a group project where we made a 
+                            book club manager website out of Django.
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/F.jpg">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>This is the current web page you are on which
+                            is made from HTML, CSS and JavaScript.
+                        </p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+
+    <!-----------Gallery-------->
+    <div id="gallery">
+        <div class="container">
+                <div class="contact-left">
+                    <h1 class="sub-title">JuxtaposD - My Digital Art</h1>
+                    <div class="image_gallery">
+                        <img src="images/juxtaposd1.png" onclick="showImage('images/juxtaposd1.png')"> 
+                        <img src="images/juxtaposd2.png" onclick="showImage('images/juxtaposd2.png')"> 
+                        <img src="images/juxtaposd3.png" onclick="showImage('images/juxtaposd3.png')"> 
+                        <img src="images/juxtaposd4.png" onclick="showImage('images/juxtaposd4.png')"> 
+                        <img src="images/juxtaposd6.png" onclick="showImage('images/juxtaposd6.png')"> 
+                    </div>
+                    <div id="expanded_img" class="single_image_display">
+                        <span class="close" onclick="closeImage()">&times;</span>
+                        <img class="image_content" id="image">
+                    </div>
+                    <p>JuxtaposD is my digital art account which I make in the spare time, 
+                        you can see my instagram profile by clicking the link! 
+                    </p> 
+                    <div class="social-icons">
+                    <a href="https://www.instagram.com/juxtaposd/"><i class="fa-brands fa-instagram"></i></a> 
+                    </div>
+                    </div>
+        </div>
+    </div>       
+
+    <!---------Contact-------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>fathima.jamaldeen2912@gmail.com</p>
+                    <!-- <p><i class="fa-solid fa-phone"></i>+44 7873 959775</p> -->
+                    <div class="social-icons">
+                        <a href="https://github.com/jd-fathima"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/fathima-jamal-deen-5a8548188/"><i class="fa-brands fa-linkedin"></i></a> 
+                    </div>
+                    <a href="images/Fathima Jamal-Deen CV.pdf" download class="btn btn2">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © Fathima. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        } 
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwAycC9qjGo8qAogNvSrQy3idRDcId4ZGsJQN3jvPcZJroCFDi67DcgIpepFLr6xNDbsg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    <script>
+        function showImage(src) {
+            var expanded_img_element = document.getElementById("expanded_img");
+            var image_element = document.getElementById("image");
+            expanded_img_element.style.display = "block";
+            image_element.src = src;
+        }
+
+        function closeImage() {
+            var expanded_img_element = document.getElementById("expanded_img");
+            expanded_img_element.style.display = "none";
+        }
+
+    </script>
+</body>
+</html>
